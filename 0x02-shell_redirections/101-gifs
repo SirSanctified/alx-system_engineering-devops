@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -depth -type f -name '*.gif' | rev | cut -d '/' -f1 | rev | sort -k 1.1f,1.1
