@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# use case statement
+
+i=1
+
+while [ $i -le 20 ]
+	do
+		echo $i
+		case "$i" in
+            4)
+				echo 'bad luck for China'
+
+			;;
+			9)
+				echo 'bad luck for Japan'
+			;;
+			17)
+				echo 'bad luck for Italy'
+			;;
+		esac
+		i=$((i + 1))
+	done
