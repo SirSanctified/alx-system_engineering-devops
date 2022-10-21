@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#ping an IP 5 times
+# ping an IP 5 times
 if [ $# -lt 1 ];
     then
         echo 'USAGE: 5-is_the_host_on_the_network {IP_ADDRESS}'
