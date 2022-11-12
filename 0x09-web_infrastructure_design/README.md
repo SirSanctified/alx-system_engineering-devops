@@ -2,13 +2,13 @@
 
 ## 0-simple_web_stack
 
-![](https://imgur.com/a/XSAHwgH)
+![](https://i.imgur.com/o6y0rUf.jpg)
 
 
 ## 1-distributed_web_infrastructure
 
-![](https://imgur.com/a/6GfyB8y)
+![](https://imgur.com/nljExsa.jpg)
 
 ## 2-secured_and_monitored_web_infrastructure
 
-![](https://imgur.com/a/KAvyo1d)
+![](https://i.imgur.com/KNxw4fJ.jpg)
