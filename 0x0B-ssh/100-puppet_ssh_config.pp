@@ -1,10 +1,8 @@
 # client ssh configuration file
-file {'/home/sir_sanctified/.ssh/config':
+file {'/etc/ssh/ssh_config':
     ensure  => file,
-    path    => '/home/sir_sanctified/.ssh/config',
+    path    => '/etc/ssh/ssh_config',
     mode    => '0744',
-    owner   => 'sir_sanctified',
-    group   => 'sir_sanctified',
     content => 'Host 100.25.4.131
         IdentityFile ~/.ssh/school
         PasswordAuthentication no'
