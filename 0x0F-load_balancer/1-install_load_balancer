@@ -5,7 +5,7 @@ add-apt-repository -y ppa:vbernat/haproxy-2.6
 apt-get update
 apt-get install -y haproxy=2.6\*
 CONFIG="
-frontend 34.84.168.116
+frontend 3.84.168.116
     bind 0:80
     default_backend back_ld
 backend back_ld
