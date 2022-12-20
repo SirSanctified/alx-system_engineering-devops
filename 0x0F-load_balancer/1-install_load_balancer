@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Script to install HAProxy
 apt-get update
+apt-get install --no-install-recommends software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-2.6
 apt-get install -y haproxy=2.6\*
 CONFIG="
 frontend 34.84.168.116
